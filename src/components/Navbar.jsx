@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   FaFacebook,
   FaTwitter,
   FaGooglePlus,
   FaInstagram,
   FaBars,
-  FaRegMoneyBillAlt,
 } from "react-icons/fa";
 
 const Navbar = () => {
@@ -15,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full min-h-[50px] flex justify-between items-center absolute z-10 text-white bg-gray-800/80">
+    <div className="absolute w-full min-h-[50px] flex justify-between items-center z-10 text-white bg-gray-800/80">
       <ul className="hidden sm:flex px-4">
         <li>
           <a href="/">Home</a>
