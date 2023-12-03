@@ -5,7 +5,7 @@ const Booking = () => {
     <div id="booking" className="max-w-[1140px] w-full p-4">
       <form className="lg:flex lg:justify-between w-full items-center">
         <div className="flex flex-col my-2 py-2">
-          <label >Destination</label>
+          <label>Destination</label>
           <select className="lg:w-[300px] md:w-full border rounded-md p-2">
             <option value="">Grande Antigua</option>
             <option value="">Key West</option>
