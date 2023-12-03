@@ -24,7 +24,7 @@ const Navbar = () => {
           <a href="#gallery">Gallery</a>
         </li>
         <li>
-          <a href="#booking">Deals</a>
+          <a href="#booking">Booking</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <a href="#gallery">Gallery</a>
           </li>
           <li className="text-2xl py-8">
-            <a href="#deals">Deals</a>
+            <a href="#booking">Booking</a>
           </li>
           <li className="text-2xl py-8">
             <a href="#contact">Contact</a>
